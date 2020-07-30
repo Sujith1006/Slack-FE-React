@@ -1,0 +1,114 @@
+.modal1-1 {
+
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow: auto;
+    background-color:darkgray;
+     width: 70%;
+    margin: 2%;
+}
+
+  
+  /* Modal Content */
+  .modal-content-msg-1 {
+      overflow-y: auto;
+      height: 80vh;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 14px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin: -17px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .users-div
+  {
+      display: flex;
+  }
+  .btn-add
+  {
+    background-color: #400852d4; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.btn-disable{
+    opacity: 0.6;
+    background-color: #400852d4; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: not-allowed;
+}
+.list-users
+{
+    display: flex;
+}
+.btn-remove{
+    background-color: #ff8da2;
+    color: white;
+    border: none;
+    padding: 2px 16px;
+    height: 41px;
+    cursor: pointer;
+}
+.btn-dis-remove{
+  background-color: #ff8da2;
+    color: white;
+    border: none;
+    padding: 2px 16px;
+    height: 41px;
+    cursor: not-allowed;
+    opacity: 0.5;
+
+}
+.btn-admin{
+    
+    background-color: #99f19c;
+    padding: 1px 9px;
+    height: 41px;
+    border: none;  
+    cursor: pointer;
+    margin-left: 1px;
+}
+.btn-dis-admin
+{
+  background-color: #99f19c;
+    padding: 1px 9px;
+    height: 41px;
+    border: none;  
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+.admin-id
+{
+  font-size: 11px;
+    padding: 26px;
+}

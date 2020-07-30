@@ -1,14 +1,15 @@
 import React, { Component } from "react";
+
 import "./makestyle.css";
 import Form from './Modalbox/Form'
-import Logo from '../../Images/logo.png'
+import Logo from '../../Images/slack.jpeg'
 class Loginform extends Component {
   constructor(props) {
     super(props);
     this.state = { display:'none'};
   }
   openmodal() {
-    if(this.state.display=='none')
+    if(this.state.display==='none')
     {
 this.setState({display:'block'})
     }
@@ -24,12 +25,13 @@ this.setState({display:'block'})
 
         <ul className="mainlist">
     
-          <li className="navstyle">BusTickets</li>
-          <li className="navstyle">Hotels</li>
-          <li className="navstyle">Bus Hire</li>
-          <li className="navstyle">Pilgrimages</li>
+          <li className="navstyle">Why slack ?</li>
+          <li className="navstyle">Solutions</li>
+          <li className="navstyle">Resources</li>
+          <li className="navstyle">Enterprise</li>
+          <li className="navstyle">Pricing</li>
 
-          <button id="btn" onClick={this.openmodal.bind(this)}>
+          <button id="btn"  onClick={this.openmodal.bind(this)}>
             Create account Or SignIn
           </button>
         </ul>

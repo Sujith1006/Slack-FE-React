@@ -1,7 +1,7 @@
 #logo
 {
-    height: 47px;
-    width:53px;
+    height: 51px;
+    width: 103px;
 }
 .navbar
 {
@@ -13,22 +13,22 @@
 .navstyle
 {
     list-style-type: none;
-    padding-left: 100px;
+    padding-left: 73px;
+    font-size: 16px;
 }
 .mainlist{
     display: flex;
 }
 #btn
 {
-    position: fixed;
-    right: 140px;
-    width: 10%;
+   
     height: 36px;
     border-radius: 10px;
     background-color: black;
     color: white;
     margin-top: -9px;
     cursor: pointer;
+    margin-left: 115px;
 }
 .modal{
     position:fixed;

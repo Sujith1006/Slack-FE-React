@@ -1,0 +1,51 @@
+.form{
+    margin-left: 78px;
+    
+}
+.text-box-error
+{
+    display: flex;
+    width: 200px;
+    border:none;
+    border-radius: 3px;
+    width:78%;
+    height:30px ;
+    border-bottom: 2px solid red;
+}
+.login-btn
+{
+    
+    margin-left: 4px;
+    width:78%;
+    background-color: blue;
+    border-radius: 3px;
+    color: white;
+    height: 39px;
+    font-weight: bolder;
+    border-radius: 10px;
+
+    
+}
+.signupbtn
+{
+    margin-top: 15px;
+
+    width:78%;
+    background-color:blue;
+    border-radius: 3px;
+    color: white;
+    height: 39px;
+    font-weight: bolder;
+    border-radius: 10px;
+
+
+}
+#ortxt
+{
+
+    margin-left: 30%;
+}
+.maindiv{
+    margin-top: 20px;
+    padding: 10%;
+}

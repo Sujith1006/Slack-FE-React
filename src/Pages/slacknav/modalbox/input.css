@@ -1,0 +1,55 @@
+
+.datafield
+{
+    background-color:white;
+    display: flex;
+    
+}
+.personlist{
+    background-color: lightgray;
+    overflow: hidden;
+    height: 425px;
+    overflow-y: scroll;
+}
+.dropdown1
+{
+    margin-top: 1px;
+    cursor: pointer;
+}
+.imgfile
+{
+    height: auto;
+    width: 59px;
+    margin-top: 13px;
+}
+.imgfield
+{
+    width: 16%;
+}
+.inpbox
+{
+    width: 75%;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border-style: groove;
+}
+.search
+{
+    display: flex;
+}
+.buttongo
+{
+    margin-left: 13px;
+    width: 100%;
+    border: none;
+    height: 40px;
+    
+}
+.linkbutton{
+    width: 20%;
+}
+.namefield
+{
+    font-size: 10px;
+}
